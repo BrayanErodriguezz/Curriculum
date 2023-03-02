@@ -1,0 +1,78 @@
+/*header*/ 
+
+.header-content {
+    background-color: #E6E6E6;
+    display: flex;
+    justify-content: center;
+}
+
+.Logo-foto{
+    width: 10%;
+    height: 20%;
+}
+
+.main-text{
+    padding: 10px;
+    margin-top: 0px;
+    margin-bottom: 100px;
+    color: #005677;
+    background-color: #C4C4C4;
+    text-align: center;
+}
+
+.miniTitles{
+    padding: 5px;
+    color: #005677;
+    background-color: #C4C4C4;
+}
+
+.past{
+    line-height: 25px;
+}
+
+.personales{
+    line-height: 25px;
+}
+
+.personales li {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fechas{
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.description{
+    font-style: normal;
+    font-weight: lighter;
+}
+
+.contain-footer{
+    background-color: #005677;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text{
+    color: #FFFFFF;
+    font-size: 18px;
+}
+
+.social-media{
+    color: #FFFFFF;
+}
+.fa-instagram, .fa-linkedin {
+    margin: 10px;
+   font-size: 22px;
+}
+
+.experience{
+    margin-left: 105px;
+}
+
+.work-experience{
+    margin-bottom: 100px;
+}
