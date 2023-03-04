@@ -1,9 +1,12 @@
 /*header*/ 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400&display=swap');
 
 .header-content {
     background-color: #E6E6E6;
     display: flex;
     justify-content: center;
+    background-image: url(/IMG/wallpaper.jpg);
+    background-position: 0vmax;
 }
 
 .Logo-foto{
@@ -14,16 +17,45 @@
 .main-text{
     padding: 10px;
     margin-top: 0px;
-    margin-bottom: 100px;
     color: #005677;
     background-color: #C4C4C4;
     text-align: center;
+    font-family: Anton;
 }
+
+.button-contain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100vw;
+    height: 50px;
+}
+
+.about-me{
+
+    align-items: center;
+    font-family: Anton;
+    text-decoration: none;
+    padding: 7px;
+    background-color:#E6E6E6 ;
+    color: #005677;
+    border: solid;
+    border-radius: 5px;
+}
+
+
+
+/*main*/
 
 .miniTitles{
     padding: 5px;
     color: #005677;
     background-color: #C4C4C4;
+    font-family: Anton;
+}
+
+.work-experience{
+    margin-bottom: 100px;
 }
 
 .past{
@@ -35,6 +67,7 @@
 }
 
 .personales li {
+    font-family: 'Oswald', sans-serif;
     font-weight: bold;
     font-style: italic;
 }
@@ -42,12 +75,24 @@
 .fechas{
     margin-left: 20px;
     font-weight: bold;
+    font-family: 'Oswald', sans-serif;
 }
 
 .description{
     font-style: normal;
+    font-weight: 300;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.experience{
+    margin-left: 105px;
+    font-family: 'Oswald', sans-serif;
     font-weight: lighter;
 }
+
+
+/*footer*/
 
 .contain-footer{
     background-color: #005677;
@@ -64,15 +109,11 @@
 .social-media{
     color: #FFFFFF;
 }
-.fa-instagram, .fa-linkedin {
+.fa-instagram, .fa-linkedin, .fa-github {
     margin: 10px;
    font-size: 22px;
 }
 
-.experience{
-    margin-left: 105px;
-}
 
-.work-experience{
-    margin-bottom: 100px;
-}
+
+

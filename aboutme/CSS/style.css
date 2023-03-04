@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@300;400&display=swap');
+
+.header-contain{
+    font-family: Anton;
+    display: flex;
+    align-content: center;
+    background-color: #E6E6E6 ;
+    height: 50px;
+    color: #005677;
+    font-size: 25px;
+}
+
+.back{
+    color: #005677;
+    text-decoration: none;
+}
+
+.fa-arrow-left{
+    margin-right: 10px;
+}
+
+.text-contain{
+    margin-top: 50px;
+    background-color: #E6E6E6;
+    padding: 20px;
+
+}
+img{
+    margin-top: 50px;
+    margin-left: 350px
+}
+
+.description{
+    font-family: 'Oswald', sans-serif;
+}
